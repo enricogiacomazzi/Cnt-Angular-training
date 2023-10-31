@@ -1,23 +1,5 @@
 
-<app-list></app-list>
-
-<!-- <app-list></app-list> -->
-
-<app-card>
-  <form>
-    <input type="text">
-  </form>
-</app-card>
-
-<button (click)="service.getData()">Aggiorna</button>
 
 
-<hr/>
-
-<button (click)="toggleClock()">toggle clock</button>
-
-<app-clock *ngIf="clockVisible"></app-clock>
-
-
-<button (click)="cfg.toggleUnit()">{{cfg.tempUnit}}</button>
-
+<app-box1 [pippo]="pippo" (toggle)="toggle()"></app-box1>
+<app-box2 [pippo]="pippo"></app-box2>
