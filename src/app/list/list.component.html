@@ -1,0 +1,10 @@
+
+
+<app-card>
+    <ul>
+        <li id="lista" *ngFor="let t of srv.temps;trackBy: track; let i = index">
+            <app-list-item [item]="t"></app-list-item>
+        </li>
+        {{render()}}
+    </ul>
+</app-card> 

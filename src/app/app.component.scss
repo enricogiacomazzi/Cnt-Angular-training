@@ -1,0 +1,49 @@
+
+
+h1 {
+    color: aquamarine;
+}
+
+
+div {
+    height: 50px;
+    background-color: red;
+    margin: 3px;
+}
+
+// span {
+//     height: 50px;
+//     width: 50px;
+//     background-color: green;
+//     margin: 3px;
+// }
+
+.verde {
+    background-color: green;
+}
+
+.giallo {
+    background-color: yellow;
+}
+
+.rosso {
+    background-color: red;
+}
+
+.bordo {
+    border: 3px solid aquamarine;
+}
+
+.nascondi {
+    display: none;
+}
+
+.bar {
+    height: 10px;
+    width: 150px;
+    background-color: blue;
+}
+
+li > span {
+    display: inline-block;
+}
