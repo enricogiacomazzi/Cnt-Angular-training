@@ -1,0 +1,7 @@
+
+<ul>
+    <li *ngFor="let p of pokemons$ | async">
+      <!-- <img [src]="p.sprites.front_default"> -->
+      <span>{{p.name}} ({{p.height}})</span>
+    </li>
+  </ul>
