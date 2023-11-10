@@ -9,8 +9,6 @@ import { PokemonList, PokemonListItem } from '../models/pokemon.model';
 export class ApiService {
   private baseUrl = 'pkm';
   
-
-
   constructor(private http: HttpClient) { }
 
 
